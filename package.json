@@ -19,7 +19,7 @@
   "directories": {
     "attachments": "./attachments"
   },
-  "main": “moog_IMAP.js",
+  "main": "moog_IMAP.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
