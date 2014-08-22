@@ -159,7 +159,7 @@ function processEv(mail) {
         return;
     }
     var fromBlob = mail.from[0];
-    var fromHost = mail.headers['received-spf'];
+    var fromHost = mail.headers['received-spf'].toString();
     fromHost = fromHost.match(/client-ip.*;/).toString();
     logger('Got Mail:' + JSON.stringify(mail, null, 2), logL.DEBUG);
     moogMsg = {};
